@@ -1,15 +1,22 @@
+body {
+  background-color: lightblue;
+}
+
 h1 {
   font-style: italic;
   font-size: 400%;
   text-align: center;
+  font-family:sans-serif;
 }
 
 h2 {
   font-style: italic;
   font-size: 325%;
+  font-family:sans-serif;
 }
 
 p {
   color:navy;
   font-size: 200%;
+  font-family: sans-serif;
 }
