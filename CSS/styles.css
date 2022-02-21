@@ -1,15 +1,15 @@
 h1 {
   font-style: italic;
-  font-size: 400%
+  font-size: 400%;
+  text-align: center;
 }
 
 h2 {
   font-style: italic;
-  font-size: 325%
+  font-size: 325%;
 }
 
 p {
-  
-  color:pink;
-  font-size: 200%
+  color:navy;
+  font-size: 200%;
 }
