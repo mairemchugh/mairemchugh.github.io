@@ -2,26 +2,21 @@ body {
   background-color: lightblue;
 }
 
-@font-face {
-  font-family: FirstFont;
-  src:url(Avenir.ttf)
-}
-
 h1 {
   font-style: italic;
   font-size: 300%;
   text-align: center;
-  font-family: FirstFont, sans-serif;
+  font-family: Avenir, sans-serif;
 }
 
 h2 {
   font-style: italic;
   font-size: 225%;
-  font-family:	FirstFont, sans-serif;
+  font-family:	Avenir, sans-serif;
 }
 
 p {
   color:navy;
   font-size: 150%;
-  font-family: 	FirstFont, sans-serif;
+  font-family: 	Avenir, sans-serif;
 }
