@@ -16,6 +16,7 @@ li {
   display: block;
   padding: 8px;
   background-color: #1582a2;
+  font-size: 100%;
 }
 
 h1 {
@@ -48,6 +49,6 @@ p {
 
 a {
   color:#1a2451;
-  font-size: 50%;
+  font-size: 75%;
   font-family: "Avenir", sans-serif;
 }
