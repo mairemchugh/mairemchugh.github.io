@@ -2,8 +2,20 @@ body {
   background-color:#afedff;
 }
 
+ul {
+  list-style-type: none;
+  margin: 1em;
+  padding: 1em;
+  overflow: hidden;
+}
+
+li{
+  float:left;
+}
 li {
-  display: inline;
+  display: block;
+  padding: 8px;
+  background-color: #1582a2;
 }
 
 h1 {
