@@ -25,32 +25,6 @@
 
 }
 
-@media screen and (min-width: 1900px) {
-  .title {
-    background-color:#afedff;
-    padding: 50px;
-    font-size: 80em;
-    font-family: "Avenir", sans-serif;
-  }
-
-  .nav-dropdown {
-    background-color: #1582a2;
-    padding: 50px;
-    font-size: 30em;
-    font-family: "Avenir", sans-serif;
-  }
-
-  .nav-list {
-    background-color: #1a2451;
-    padding: 50px;
-    font-size: 30em;
-    font-family: "Avenir", sans-serif;
-  }
-}
-@media screen and (max-width: 1899px) {
-
-}
-
 
 
 /*body {
