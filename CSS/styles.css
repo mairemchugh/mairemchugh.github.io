@@ -1,4 +1,26 @@
-body {
+@media screen and (min-width: 400px) {
+  .title {
+    background-color: #afedff;
+    padding: 20px;
+  }
+
+  .nav-dropdown {
+    background-color: #1582a2;
+    padding: 20px;
+  }
+
+  .nav-list {
+    background-color: #1a2451;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+
+}
+
+
+/*body {
   background-color:#afedff;
 }
 
@@ -51,4 +73,4 @@ a {
   color:#1a2451;
   font-size: 75%;
   font-family: "Avenir", sans-serif;
-}
+}*/
