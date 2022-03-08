@@ -1,4 +1,23 @@
-@media screen and (min-width: 400px) {
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300px;
+
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slide-in {
+  animation-duration:4s;
+  animation-name: slidein;
+
+}
+
+/*@media screen and (min-width: 400px) {
   .title {
     background-color: red;
     padding: 20px;
@@ -17,4 +36,4 @@
 
 @media screen and (max-width: 399px) {
 
-}
+}*/
