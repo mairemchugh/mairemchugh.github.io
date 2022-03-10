@@ -22,10 +22,16 @@
 
   }
 
-  .home-page{
+  .home-page {
     background-color: #ffffff;
 
     font-size: 22px;
+    font-family: "Avenir", sans-serif;
+  }
+
+  .assignment-colors {
+    background-color: #ffffff;
+    font-size: 20px;
     font-family: "Avenir", sans-serif;
   }
 
