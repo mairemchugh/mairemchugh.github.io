@@ -1,10 +1,23 @@
 @media screen and (min-width: 400px) {
+  body {
+    background-color:#afedff;
+    margin: 5px;
+    max-width: 100%;
+    overflow-x: hidden;
+   }
+
+   img {
+     width: 100%;
+     height: auto;
+   }
+
   .title {
     background-color: #afedff;
     padding: 0px;
     margin: 0px;
     font-size: 40px;
     font-family: "Avenir", sans-serif;
+    align-self: center;
   }
 
   .nav-dropdown {
@@ -14,11 +27,10 @@
     font-size: 20px;
     font-family: "Avenir", sans-serif;
     list-style-type: none;
-    align-self: center;
 
   }
 
-  .nav .activemenu {
+/*  .nav: hover {
     background-color: #ffffff;
 
   }
@@ -26,22 +38,25 @@
   .nav .activemenu:hover {
     color: #ffffff;
     background-color: #1582a2;
-  }
+  }*/
 
   .nav-list {
+    display: grid;
+    list-style-type: none;
+    list-style-position: outside;
+    align-self: center;
     background-color: #1a2451;
-    padding: 35px;
+    padding: 30px 30px 30px 30px;
     font-size: 20px;
     font-family: "Avenir", sans-serif;
 
   }
 
-  .home-page {
-    background-color: #ffffff;
-
+  /*.home-page {
+    background-color: inherit;
     font-size: 22px;
     font-family: "Avenir", sans-serif;
-  }
+  }*/
 
   .assignment-colors {
     background-color: #ffffff;
@@ -49,27 +64,33 @@
     font-family: "Avenir", sans-serif;
   }
 
-  body {
-    background-color:#afedff;
-    margin: 5px;
-    max-width: 100%;
-    overflow-x: hidden;
-   }
+  .project-page {
+
+  }
+
 
   ul {
-    list-style-type: none;
-    margin: 1em;
-    padding: 1em;
-    overflow: hidden;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #0e1429;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 3px;
+    position: relative;
+    width: 100%;
   }
 
   li{
     float:left;
   }
-  li {
-    display: block;
-    padding: 8px;
+  li a {
+    display: grid;
+    width: auto;
     background-color: #1582a2;
+    padding: 7px 9px 7px 9px;
+    text-align: left;
     font-size: 100%;
   }
 
@@ -90,8 +111,8 @@
 
   hr {
     display:block;
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -101,14 +122,9 @@
     font-family: 	"Avenir", sans-serif;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-  }
-
   a {
     color:#1a2451;
-    font-size: 75%;
+    font-size: 150%;
     font-family: "Avenir", sans-serif;
   }
 
