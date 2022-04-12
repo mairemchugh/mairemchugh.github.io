@@ -7,20 +7,16 @@
   </head>
 
   <body>
-    <table style="text-align: left;">
-
-    <nav>
-      <h1> Maire McHugh</h1>
-
-      <div class="nav-links">
-        <a href="advertising.html">About Me!</a></li>
-        <a href="assignments.html">Class Assignments</a></li>
-        <a href="contact.html">Contact Me</a></li>
-      </div>
-
-    </nav>
-
+    <h2> Hey There Click Below!</h2>
     <button id="button-1">Hello!</button>
-    <button id="button-2">Goodbye!</button>
+    <p id="demo">Thanks for stopping by!</p>
+
+  <script>
+    document.getElementById("button-1").addEventListener("click", displayPhrase);
+
+    function displayPhrase() {
+      document.getElementById('demo').innerHTML = Goodbye();
+
+    }
 
   </body>
