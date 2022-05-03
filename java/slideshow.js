@@ -13,6 +13,7 @@ slideshowContainer.style.transform = "translateX(" + ( - size * counter)+ px")";
 
 
 nextBtn.addEventListener("click",()=>) {
+  if (counter<=0) return;
   slideshowContainer.style.transition = "transform 0.4s ease-in-out";
   counter++;
   slideshowContainer.style.transform = "translateX(" + ( - size * counter)+ px)";
