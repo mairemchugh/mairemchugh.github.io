@@ -123,6 +123,11 @@ body {
   max-height: 100%;
 }
 
+.myself {
+  width: 50%;
+  height: auto;
+}
+
 
 *{
   padding: 0px;
