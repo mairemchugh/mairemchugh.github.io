@@ -26,6 +26,7 @@
     margin: 0px;
     font-size: 20px;
     font-family: "Avenir", sans-serif;
+    display: flex;
     list-style-type: none;
 
   }
@@ -38,6 +39,7 @@
     background-color: #1a2451;
     padding: 30px 30px 30px 30px;
     font-size: 20px;
+    display: flex;
     font-family: "Avenir", sans-serif;
 
   }
