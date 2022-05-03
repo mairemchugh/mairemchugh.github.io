@@ -134,6 +134,7 @@ body {
 img {
   width: auto;
   height: 100%;
+  display: flex;
 }
 
 .row {
