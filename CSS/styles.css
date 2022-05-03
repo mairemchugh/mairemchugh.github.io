@@ -134,6 +134,15 @@ img {
   display: flex;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  padding: 5px;
+}
+
 
 * {box-sizing:border-box}
 
