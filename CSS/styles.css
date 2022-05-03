@@ -135,14 +135,20 @@ body {
   box-sizing: border-box;
 }
 
-.slideshow-container {
-  width: 100%;
+/* .slideshow-container {
+
   margin: auto;
   overflow: hidden;
+  position: relative;
+} */
+
+#mySlides {
+  width: 100%;
+  position: relative;
 }
 
-.mySlides {
-  display: flex;
-  width: 75%;
-  height: auto;
+img {
+  position: absolute;
+  top:0;
+  left:0;
 }
