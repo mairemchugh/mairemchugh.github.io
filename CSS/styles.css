@@ -120,11 +120,6 @@
   }
 
 
-  }
-
-
-@media screen and (max-width: 399px) {
-
 body {
   background-color:#afedff;
   margin: 5px;
@@ -146,6 +141,9 @@ img {
   padding: 5px;
 }
 
+@media screen and (max-width: 399px) {
+
+}
 
 }
 
