@@ -131,17 +131,9 @@ body {
 img {
   width: auto;
   height: 100%;
-  display: flex;
+  display: none;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 10%;
-  padding: 5px;
-}
 
 * {box-sizing:border-box}
 
@@ -153,7 +145,7 @@ img {
 
 
 .mySlides {
-  display: flex;
+  display: none;
 }
 
 
