@@ -131,7 +131,7 @@ body {
 img {
   width: auto;
   height: 100%;
-  display: none;
+  display: flex;
 }
 
 
@@ -145,7 +145,7 @@ img {
 
 
 .mySlides {
-  display: none;
+  display: flex;
 }
 
 
