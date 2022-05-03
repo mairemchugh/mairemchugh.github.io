@@ -1,5 +1,5 @@
 const slideshowContainer = document.querySelector(".slideshow-container");
-const myImages = document.querySelector(".mySlides img");
+const myImages = document.querySelector(".mySlides");
 
 const prevBtn = document.querySelector("#prevBtn");
 const nextBtn = document.querySelector("#nextBtn");
